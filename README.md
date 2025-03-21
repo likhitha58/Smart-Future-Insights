@@ -24,6 +24,21 @@ TECHNOLOGIES USED
 Html
 Css
 JavaScript
+<hr>
+<H3>HOME PAGE</H3>
 ![image](https://github.com/user-attachments/assets/aa67d2a0-8435-49a0-9857-94f3efd47e08)
+<HR>
+<H3>ABOUT US PAGE</H3>
+![image](https://github.com/user-attachments/assets/96c8b12c-4797-4f9f-9eb6-f2e3d33acb81)
+<HR>
+<H3>GALLERY PAGE</H3>
+![image](https://github.com/user-attachments/assets/248cc16f-8259-4cb7-bdef-5d91b934b21f)
+<HR>
+<H3>CONTACT US PAGE</H3>
+![image](https://github.com/user-attachments/assets/2bb2c59f-d015-445e-b591-aed4d4d908f1)
+
+
+
+
 
 
