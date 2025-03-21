@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="icon" href="techlogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Dosis:wght@200..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inspiration&family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IN:wght@100..400&family=Poiret+One&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        body{
+            font-family: IBM Plex Mono;
+            margin:0px;
+        }
+        .gallery-background{
+            background-color: black;
+            height:100vh;
+        }
+        .gallery-center{
+            color:blueviolet;
+            font-size: 70px;
+            text-align: center;
+            margin-top:100px;
+            background: linear-gradient(90deg, #fff,blueviolet, #24209e,white);
+    background-size: 200% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: shine 3s linear infinite;
+}
+@keyframes shine {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+  audio {
+    width: 500px;
+    background-color: #1e1e1e;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px blueviolet;
+    margin-left:500px;
+    margin-top:70px;
+  }
+
+  /* Customizing the audio control panel (limited browser support) */
+  audio::-webkit-media-controls-panel {
+    background-color: #1e1e1eeb;
+    border-radius: 10px;
+  }
+
+  audio::-webkit-media-controls-play-button {
+    background-color:blueviolet;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    color:blueviolet;
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    background-color: blueviolet;
+  }
+  .dropdown {
+            position: relative;
+            display: inline-block;
+            margin-top: 35px;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:rgba(137, 43, 226, 0.363);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 10px;
+        }
+        .dropdown-content a {
+            color:white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border-radius: 20px;
+        }
+        .dropdown-content a:hover {
+            background-color:blueviolet;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+</video>
+<body>
+    <div class="gallery-background">
+    <nav>
+        <img class="logo"src="techlogo.png" style="height:50px;width:50px;margin-left:100px;margin-top:20px;">
+        <h3 style="margin-left:10px;margin-top:25px;font-size:30px;">Smart Future</h3>
+        <h3 style="margin-left:7px;margin-top:25px;font-size:30px;color:rgba(137, 43, 226, 0.68)">Insights</h3>
+        <a href="index.html"style="margin-left:60px;margin-top:35px;font-size:20px;text-decoration: none;color:rgb(198, 196, 212);;position:relative;">Home</a>
+        <a href="about_us.html" target="_blank"style="margin-left:30px;margin-top:35px;font-size:20px;text-decoration: none;color:rgb(198, 196, 212);position:relative;">About Us</a>
+        <div class="dropdown">
+        <a href="gallery.html" tagret="_blank"style="margin-left:30px;margin-top:35px;font-size:20px;text-decoration: none;color:rgb(198, 196, 212);position:relative;">Gallery</a>
+        <div class="dropdown-content">
+            <a href="quantumcomputing.html" target="_blank">Quantum Computing</a>
+            <a href="aiml.html" target="_blank">AI & Machine Learning</a>
+            <a href="5g.html" target="_blank">5G Technology</a>
+            <a href="blockchain.html" target="_blank">Blockchain</a>
+            <a href="metaverse.html" target="_blank">Metaverse</a>
+        </div>
+    </div>
+        <a href="contact_us.html" target="_blank" style="margin-left:30px;margin-top:35px;font-size:20px;text-decoration: none;color:rgb(198, 196, 212);position:relative;">Contact us</a>
+    </nav>
+    <div class="gallery-center">
+       Explore <br>the visuals of <br>emerging technologies <br>of the future
+    </div>
+    <audio controls muted class="audio">
+        <source src="techaudio.mp3" type="audio/mpeg">
+    </audio>
+    
+</div>
+</body>
+<footer>
+    <div class="footerlogo">
+        <img class="logo"src="techlogo.png" style="height:30px;width:30px;margin-right:5px;">
+    <h3 style="color:rgb(198, 196, 212);">Smart Future</h3>
+    <h3 style="margin-left:5px;color:blueviolet">Insights</h3>
+</div>
+    <div class="subscribe">
+        <h4>Subscribe to Our Newsletter</h4>
+        <input type="email" placeholder="enter your email" style="height:30px;width:220px;background-color:rgba(0, 0, 0, 0.4);border-radius:10px;">
+        <button style="height:35px;background-color:rgba(137, 43, 226, 0.105);border-radius: 5px;">Subscribe</button>
+    </div>
+    <div class="contactus">
+        <h4>Contact Us</h4>
+        <p>Email: @smartfutureinsights2005@gmail.com</p>
+        <p>Phone: +12312 31231</p>
+        <p>Address: 201, Bombay Street, Mumbai City</p>
+    </div>
+    <h4 style="margin-left:70px;">Follow us on</h4>
+
+    <div class="followus">
+        <i class="fa-brands fa-instagram" style="margin-left:-100px;"></i>
+        <i class="fa-brands fa-facebook" style="margin-left:20px;"></i>
+        <i class="fa-brands fa-linkedin" style="margin-left:20px;"></i>
+        <i class="fa-brands fa-x-twitter" style="margin-left:20px;"></i>
+    </div>
+</footer>
+</html>

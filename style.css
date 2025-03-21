@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+}
+.background{
+    background:conic-gradient(#000B18 180deg,rgb(0, 0, 0) 180deg);
+    /* background-color: black; */
+    background: fill;
+    height:100vh;
+}
+nav{
+    font-family: Dosis;
+    color:rgb(198, 196, 212);
+    display: inline-flex;
+}
+.container {
+    text-align: center;
+  }
+.aboutus{
+    color:rgb(198, 196, 212);
+    font-family:IBM Plex Mono; 
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top:200px;
+    margin-left:800px;
+    text-align: center;
+    background: linear-gradient(90deg, #fff,blueviolet, #fff);
+    background-size: 200% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: shine 6s linear infinite;
+}
+@keyframes shine {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+.heading{
+    font-size:80px;
+    font-family: IBM Plex Mono;
+    color:blueviolet;
+    margin-left:100px;
+    margin-top:-270px;
+}
+footer{
+    font-family: Dosis;
+    background-color:#0a2730;
+    color:rgb(198, 196, 212);
+    display: inline-flex;
+    width:100%;
+    font-size:20px;
+}
+.footerlogo{
+    display: inline-flex;
+    align-items: center;
+    margin-left:100px;
+}
+.subscribe{
+    margin-left:70px;
+    align-items: center;
+    margin-top:20px;
+}
+.contactus{
+    margin-left:70px;
+}
+.followus{
+    justify-content: space-between;
+    margin-top:40px;
+    display: flex;
+    font-size: 40px;
+}
