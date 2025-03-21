@@ -24,5 +24,6 @@ TECHNOLOGIES USED
 Html
 Css
 JavaScript
+![image](https://github.com/user-attachments/assets/aa67d2a0-8435-49a0-9857-94f3efd47e08)
 
 
