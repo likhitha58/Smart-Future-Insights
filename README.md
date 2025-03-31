@@ -25,6 +25,7 @@ Html
 Css
 JavaScript
 <hr>
+Deployed the page using github: https://likhitha58.github.io/Smart-Future-Insights/
 <H3>HOME PAGE</H3>
 ![image](https://github.com/user-attachments/assets/aa67d2a0-8435-49a0-9857-94f3efd47e08)
 <HR>
